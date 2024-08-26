@@ -1,0 +1,23 @@
+%d ou %i - int(inteiro).
+%f  - float (real).
+
+%ld long int (inteiro longo).
+
+estrutura for em python:
+
+for (referencia
+in (sequencia):(bloco de codigo)
+comando RANGE - espaço\distancia\alcance.
+ordem crescente.
+
+for (REFERENCIA)
+in (seuqnecia); (bloco de codigo , 0 , -1)
+ordem decrescente.
+
+
+While (enquanto):
+
+x =1;
+while x<=15:
+    print(x);
+    x=x+1

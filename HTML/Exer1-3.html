@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <script>
+
+let a, b, codigo, resultado;
+let desproduto;
+
+a = parseInt(prompt("Digite um numero"))
+b = parseInt(prompt("Digite outro numero"))
+codigo = (prompt("Infome o código de um produto notável"))
+
+      if (codigo > "5") {
+      alert('Seu código é invalido')
+      }else if(codigo === "1"){
+      resultado = (a-b)*(a-b)
+      desproduto = "Quadrado da diferença de dois números"
+      }else if(codigo === "2"){
+      resultado = (a+b)*(a+b)
+      desproduto = "Quadrado da diferença de dois números"
+      }else if(codigo === "3"){
+      resultado = (a*b)+(a*b)
+      desproduto = "Quadrado da diferença de dois números"
+      }else if(codigo === "4"){
+      resultado = (a*b)-(a*b)
+      desproduto = "Quadrado da diferença de dois números"
+      }else if(codigo === "5"){
+      resultado = (a-b)*(a+b)
+      desproduto = "Quadrado da diferença de dois números"
+      }
+         
+      document.write("Seu código é:  ", codigo);
+      document.write("<br>")
+      document.write("Seu resultado é:   ", resultado);
+      document.write("<br>")
+      document.write("Valor do produto notável:  " + desproduto);
+</script>  
+</body>
+</html>
+
+
+
+
